@@ -5,7 +5,7 @@ FROM openjdk:23-jdk-slim
 WORKDIR /app
 
 # Copiem fișierul JAR generat în container
-COPY target/springboot-0.0.1-SNAPSHOT.jar app.jar
+COPY target/your-application-name.jar app.jar
 
 # Expunem portul pe care rulează aplicația
 EXPOSE 8080
